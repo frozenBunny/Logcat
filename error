@@ -1,0 +1,287 @@
+--------- beginning of crash
+2023-04-25 23:14:54.879 17574-17574 AndroidRuntime          pid-17574                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 17574
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+2023-04-25 23:15:00.006 17759-17759 AndroidRuntime          pid-17759                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 17759
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+2023-04-25 23:15:11.746 17960-17960 AndroidRuntime          pid-17960                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 17960
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+2023-04-25 23:28:10.499 29302-29302 AndroidRuntime          pid-29302                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 29302
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+2023-04-25 23:28:16.178 30294-30294 AndroidRuntime          pid-30294                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 30294
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+--------- beginning of system
+2023-04-29 14:03:21.447 19582-19582 AndroidRuntime          pid-19582                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 19582
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes3.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes3.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+2023-04-29 14:03:26.415 19626-19626 AndroidRuntime          pid-19626                            E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.stepcounterp, PID: 19626
+                                                                                                    java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.stepcounterp/com.example.stepcounterp.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes3.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3492)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:236)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011)
+                                                                                                    Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.stepcounterp.MainActivity" on path: DexPathList[[dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes2.dex", dex file "/data/data/com.example.stepcounterp/code_cache/.overlay/base.apk/classes3.dex", zip file "/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/base.apk"],nativeLibraryDirectories=[/data/app/~~i8y7DgDilofS_QgGCLEx7Q==/com.example.stepcounterp-3WQ_CfdRML9N5opCqbT6MA==/lib/arm64, /system/lib64, /system/system_ext/lib64]]
+                                                                                                    	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+                                                                                                    	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+                                                                                                    	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+                                                                                                    	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+                                                                                                    	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3480)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3748) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2187) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:236) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8057) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:620) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1011) 
+--------- beginning of main
+2023-04-29 15:30:45.275  1991-2074  InstallApkReceiver      com.miui.home                        E  uninstall:package:com.example.stepcounterp
+2023-04-29 15:30:45.300  1991-2074  InstallApkReceiver      com.miui.home                        E  install:package:com.example.stepcounterp
+2023-04-29 15:30:46.017  1323-1744  AppScanObserverService  system_server                        E  Try to add a invalid package: com.example.stepcounterp | 10561 | 0
+2023-04-29 15:30:46.408 30618-30618 le.stepcounter          com.example.stepcounterp             I  Late-enabling -Xcheck:jni
+2023-04-29 15:30:46.446 30618-30618 le.stepcounter          com.example.stepcounterp             I  Unquickening 22 vdex files!
+2023-04-29 15:30:47.043 30618-30618 NetworkSecurityConfig   com.example.stepcounterp             D  No Network Security Config specified, using platform default
+2023-04-29 15:30:47.046 30618-30618 NetworkSecurityConfig   com.example.stepcounterp             D  No Network Security Config specified, using platform default
+2023-04-29 15:30:47.123 30618-30765 libMEOW                 com.example.stepcounterp             D  meow reload base cfg path: na
+2023-04-29 15:30:47.123 30618-30765 libMEOW                 com.example.stepcounterp             D  meow reload overlay cfg path: /vendor/etc/meow.cfg
+2023-04-29 15:30:47.126 30618-30765 libMEOW                 com.example.stepcounterp             D  applied 1 plugins for [com.example.stepcounterp]:
+2023-04-29 15:30:47.126 30618-30765 libMEOW                 com.example.stepcounterp             D    plugin 1: [libMEOW_gift.so]:
+2023-04-29 15:30:47.232 30618-30618 AppCompatDelegate       com.example.stepcounterp             D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-04-29 15:30:47.272 30618-30618 libc                    com.example.stepcounterp             E  Access denied finding property "ro.vendor.pref_scale_resolution"
+2023-04-29 15:30:47.326 30618-30618 View                    com.example.stepcounterp             D  com.example.stepcounterp initForcedUseForceDark: 1
+2023-04-29 15:30:47.680 30618-30618 le.stepcounter          com.example.stepcounterp             W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2023-04-29 15:30:47.710 30618-30618 libc                    com.example.stepcounterp             E  Access denied finding property "ro.vendor.pref_scale_resolution"
+2023-04-29 15:30:47.805 30618-30618 libc                    com.example.stepcounterp             E  Access denied finding property "ro.vendor.pref_scale_resolution"
+2023-04-29 15:30:47.822 30618-30618 libc                    com.example.stepcounterp             E  Access denied finding property "ro.vendor.pref_scale_resolution"
+2023-04-29 15:30:47.848 30618-30618 libc                    com.example.stepcounterp             E  Access denied finding property "ro.vendor.pref_scale_resolution"
+2023-04-29 15:30:47.874 30618-30618 DecorView[]             com.example.stepcounterp             D  getWindowModeFromSystem  windowmode is 1
+2023-04-29 15:30:47.875 30618-30618 DecorView               com.example.stepcounterp             D  createDecorCaptionView windowingMode:1 mWindowMode 1 isFullscreen: true
+2023-04-29 15:30:47.900 30618-30618 le.stepcounter          com.example.stepcounterp             W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2023-04-29 15:30:47.912 30618-30618 Activity                com.example.stepcounterp             W  Slow Operation: Activity com.example.stepcounterp/.MainActivity onCreate took 660ms
+2023-04-29 15:30:47.941 30618-30618 SurfaceFactory          com.example.stepcounterp             I  [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@cd89a14
+2023-04-29 15:30:47.954 30618-30618 ViewRootIm...nActivity] com.example.stepcounterp             D  hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+2023-04-29 15:30:47.961 30618-30618 libMEOW                 com.example.stepcounterp             D  applied 1 plugins for [com.example.stepcounterp]:
+2023-04-29 15:30:47.961 30618-30618 libMEOW                 com.example.stepcounterp             D    plugin 1: [libMEOW_gift.so]:
+2023-04-29 15:30:47.962 30618-30618 InputTransport          com.example.stepcounterp             I  Create ARC handle: 0xb400007e626b4480
+2023-04-29 15:30:47.966 30618-30618 PhoneWindow             com.example.stepcounterp             V  DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@9af4380, this = DecorView@b30edb9[MainActivity]
+2023-04-29 15:30:47.974 30618-30618 Looper                  com.example.stepcounterp             W  PerfMonitor looperActivity : package=com.example.stepcounterp/.MainActivity time=884ms latency=485ms running=779ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem } historyMsgCount=1 (msgIndex=1 wall=519ms seq=3 running=423ms runnable=60ms h=android.app.ActivityThread$H w=110)
+2023-04-29 15:30:47.975 30618-30618 Looper                  com.example.stepcounterp             W  PerfMonitor looperActivity : package=com.example.stepcounterp/.MainActivity time=0ms latency=1369ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=519ms seq=3 running=423ms runnable=60ms h=android.app.ActivityThread$H w=110) (msgIndex=2 wall=884ms seq=4 running=779ms runnable=23ms io=6ms late=485ms h=android.app.ActivityThread$H w=159)
+2023-04-29 15:30:48.027 30618-30760 libMEOW                 com.example.stepcounterp             D  applied 1 plugins for [com.example.stepcounterp]:
+2023-04-29 15:30:48.027 30618-30760 libMEOW                 com.example.stepcounterp             D    plugin 1: [libMEOW_gift.so]:
+2023-04-29 15:30:48.061 30618-30760 GED                     com.example.stepcounterp             I  [GT]_get_procNameprocess pid(30618)
+2023-04-29 15:30:48.061 30618-30760 GED                     com.example.stepcounterp             I  [GT]_getprocess name(com.example.stepcounterp)
+2023-04-29 15:30:48.061 30618-30760 le.stepcounter          com.example.stepcounterp             I  [GT] ret(1) gt_status(00000000) aniso_debug_level(0) gt_aniso_max_level(16) ani so mask(00000001) tri mask(00000002)
+2023-04-29 15:30:48.061 30618-30760 libMEOW_gift            com.example.stepcounterp             I  ctx:0xb400007e68a95ee8, ARC not Enabled.
+2023-04-29 15:30:48.087 30618-30760 ion                     com.example.stepcounterp             E  ioctl c0044901 failed with code -1: Invalid argument
+2023-04-29 15:30:48.605 30618-30647 le.stepcounter          com.example.stepcounterp             I  Background young concurrent copying GC freed 32650(3068KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 3225KB/27MB, paused 75us total 151.903ms
+2023-04-29 15:30:55.021 30618-30749 le.stepcounter          com.example.stepcounterp             I  ProcessProfilingInfo new_methods=2455 is saved saved_to_disk=1 resolve_classes_delay=8000
+2023-04-29 15:31:16.010 30618-30618 PhoneWindow             com.example.stepcounterp             V  DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@9af4380, this = DecorView@b30edb9[MainActivity]
+2023-04-29 15:32:00.946 30618-30618 libc                    com.example.stepcounterp             E  Access denied finding property "ro.vendor.pref_scale_resolution"
+2023-04-29 15:32:00.976 30618-30618 ViewRootImpl[Подсказка] com.example.stepcounterp             D  hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+2023-04-29 15:32:00.984 30618-30618 InputTransport          com.example.stepcounterp             I  Create ARC handle: 0xb400007e625d1900
+2023-04-29 15:32:02.275 30618-30618 View                    com.example.stepcounterp             D  [Warning] assignParent to null: this = android.widget.LinearLayout{59a63e7 V.E...... ........ 0,0-231,133}
+2023-04-29 15:32:02.285 30618-30618 InputTransport          com.example.stepcounterp             I  Destroy ARC handle: 0xb400007e625d1900
